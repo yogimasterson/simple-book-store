@@ -1,0 +1,36 @@
+{
+  "name": "simple-book-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogimasterson/simple-book-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yogimasterson/simple-book-store/issues"
+  },
+  "homepage": "https://github.com/yogimasterson/simple-book-store#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7",
+    "pg-promise": "^6.5.1",
+    "postgresql": "0.0.1",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "nodemon": "^1.11.0"
+  }
+}
