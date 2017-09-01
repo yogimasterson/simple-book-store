@@ -1,0 +1,79 @@
+* {
+  font-family: "Baloo Bhaina";
+}
+
+/* Navbar */
+
+.nav-wrapper {
+  background-color: black;
+}
+
+.larger-icon {
+  font-size: 2em !important;
+  margin-left: 0.5em;
+  color: #73c1df;
+}
+
+.larger-icon:hover {
+  color: white;
+}
+
+.brand-logo {
+  font-family: "Baloo Bhaina";
+  margin-top: 0.15em;
+  margin-left: 0.3em;
+  color: #73c1df !important;
+}
+
+.brand-logo:hover {
+  background-color: transparent;
+  color: white !important;
+}
+
+#nav-mobile {
+  margin-right: 2em;
+}
+
+#nav-mobile a {
+  font-size: 1.5em;
+  margin-top: 0.15em;
+  color: #73c1df;
+}
+
+#nav-mobile a:hover {
+  color: white;
+}
+
+/* Particle */
+
+#particles-js {
+  background-color: #05090f;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#overlay {
+  position: relative;
+}
+
+/* Cards */
+
+#cards  {
+  margin: auto;
+  display: flex;
+  position: absolute;
+  margin-top: 2%;
+  padding-left: 1.5%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+}
+
+#cards .row {
+  margin: auto;
+}
